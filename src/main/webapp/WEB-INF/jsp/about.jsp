@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Welcome Page</title>
+    <title>About Page</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-200 text-center">
@@ -12,7 +12,7 @@
             <a href="/about" class="text-white text-lg ml-4">About</a>
         </div>
     </nav>
-    <h1 class="text-4xl font-bold my-4">Welcome page</h1>
+    <h1 class="text-4xl font-bold my-4">About page</h1>
     <h2 class="text-3xl my-2">${intestazione}</h2>
     <h3 class="text-2xl my-2">${saluti}</h3>
 </body>

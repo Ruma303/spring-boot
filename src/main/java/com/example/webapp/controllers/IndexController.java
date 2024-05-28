@@ -11,15 +11,18 @@ public class IndexController {
 
     @GetMapping(value="/")
     public String welcome(Model model) {
-        model.addAttribute("intestazione", "Benvenuto in AlphaShop!");
+        model.addAttribute("intestazione", "Benvenuto in SpringBoot!");
         model.addAttribute("saluti", this.saluti);
         return "index";
     }
 
     @GetMapping(value="/about")
-    public String getAbout() {
+    public String about(Model model) {
+        model.addAttribute("intestazione", "Informazioni su SpringBoot");
+        model.addAttribute("saluti", "SpringBoot è un'applicazione web sviluppata con Spring Boot 3.");
         return "about";
     }
+
 }
 
 
